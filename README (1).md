@@ -163,13 +163,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### LLM key (optional)
+### LLM key 
 
 Without a key the app shows a template explanation. To enable the LLM:
 
 1. Create a Gemini API key at https://aistudio.google.com/app/apikey
 2. Copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml`
-3. Set `GEMINI_API_KEY = "your-key"`
+3. Set `GEMINI_API_KEY = "AQ.Ab8RN6IOCBPOvsk_y51mSIB8RptJ-bNAzAqkqleMvxpbuQftUg"`
 
 Never commit `secrets.toml`; it is listed in `.gitignore`.
 
